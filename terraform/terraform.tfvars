@@ -1,0 +1,9 @@
+aws_region          = "us-east-2"
+project_name        = "zomato"
+project_environment = "production"
+ami_id              = "ami-077b630ef539aa0b5"
+instance_type       = "t2.micro"
+webserver_ports     = ["80", "443", "22"]
+domain_name         = "gayathris.shop"
+webserver_hostname  = "terraform"
+enable_public_ip    = true
