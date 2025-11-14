@@ -10,7 +10,7 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.access_key }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.secret_key }}
-      AWS_DEFAULT_REGION: "ap-south-1"
+      AWS_DEFAULT_REGION: "us-east-2"
       TERRAFORM_VERSION: "1.1.35"
 
     steps:
